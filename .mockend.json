@@ -1,14 +1,115 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "Station": [
+    {
+      "code": "BL23",
+      "name": "南港展覽館",
+      "en": "Taipei Nangang Exhibition Center",
+      "period": 2
+    },
+    { "code": "BL22", "name": "南港", "en": "Nangang", "period": 2 },
+    { "code": "BL21", "name": "昆陽", "en": "Kunyang", "period": 2 },
+    { "code": "BL20", "name": "後山埤", "en": "Houshanpi", "period": 2 },
+    { "code": "BL19", "name": "永春", "en": "Yongchun", "period": 2 },
+    { "code": "BL18", "name": "市政府", "en": "Taipei City Hall", "period": 2 },
+    {
+      "code": "BL17",
+      "name": "國父紀念館",
+      "en": "Sun Yat-Sen Memorial Hall",
+      "period": 2
+    },
+    {
+      "code": "BL16",
+      "name": "忠孝敦化",
+      "en": "Zhongxiao Dunhua",
+      "period": 1
+    },
+    {
+      "code": "BL15",
+      "name": "忠孝復興",
+      "en": "Zhongxiao Euxing",
+      "cross": "brown",
+      "period": 3
+    },
+    {
+      "code": "BL14",
+      "name": "忠孝新生",
+      "en": "Zhongxiao Xinsheng",
+      "cross": "orange",
+      "period": 2
+    },
+    { "code": "BL13", "name": "善導寺", "en": "Shandao Temple", "period": 2 },
+    {
+      "code": "BL12",
+      "name": "台北車站",
+      "en": "Taipei Main Station",
+      "cross": "red",
+      "period": 1
+    },
+    {
+      "code": "BL11",
+      "name": "西門",
+      "en": "Ximen",
+      "cross": "green",
+      "period": 2
+    },
+    { "code": "BL10", "name": "龍山寺", "en": "Longshan Temple", "period": 2 },
+    { "code": "BL09", "name": "江子翠", "en": "Jiangzicui", "period": 4 },
+    {
+      "code": "BL08",
+      "name": "新埔",
+      "en": "Xinpu",
+      "cross": "yellow",
+      "period": 2
+    },
+    {
+      "code": "BL07",
+      "name": "板橋",
+      "en": "Banqiao",
+      "cross": "yellow",
+      "period": 2
+    },
+    { "code": "BL06", "name": "府中", "en": "Fuzhong", "period": 2 },
+    {
+      "code": "BL05",
+      "name": "亞東醫院",
+      "en": "Far Eastern Hospital",
+      "period": 4
+    },
+    { "code": "BL04", "name": "海山", "en": "Haishan", "period": 1 },
+    { "code": "BL03", "name": "土城", "en": "Tucheng", "period": 3 },
+    { "code": "BL02", "name": "永寧", "en": "Yongning", "period": 2 },
+    { "code": "BL01", "name": "頂埔", "en": "Dingpu", "period": 3 }
+  ],
+  "Transmit": [
+    {
+      "color": "yellow",
+      "code": "Y",
+      "description": "轉乘環狀線 請在本站換車",
+      "descriptionEn": "Transfer Station for the Yellow Line"
+    },
+    {
+      "color": "green",
+      "code": "G",
+      "description": "轉乘松山新店線 請在本站換車",
+      "descriptionEn": "Transfer Station for the Green Line"
+    },
+    {
+      "color": "red",
+      "code": "R",
+      "description": "轉乘淡水信義線 請在本站換車",
+      "descriptionEn": "Transfer Station for the Red Line"
+    },
+    {
+      "color": "orange",
+      "code": "O",
+      "description": "轉乘中和新盧線 請在本站換車",
+      "descriptionEn": "Transfer Station for the Orange Line"
+    },
+    {
+      "color": "brown",
+      "code": "BR",
+      "description": "轉乘文湖線 請在本站換車",
+      "descriptionEn": "Transfer Station for the Brown Line"
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+  ]
 }
